@@ -1,0 +1,1 @@
+# sarnaste-haigustrajektooride-leidmine
