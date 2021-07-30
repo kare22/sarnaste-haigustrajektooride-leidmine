@@ -1,5 +1,5 @@
 ## Get local alignment between person1(horizontal) and person2(vertical)
-def get_local_alignment(p1, p2, match=1, mismatch=0, gap_penalty=-1):
+def get_local_alignment(p1, p2, match=1, mismatch=-1, gap_penalty=-1):
     # Initialisation
     matrix = [[0 for i in range(len(p2) + 1)] for j in range(len(p1) + 1)]
     for i in range(len(p1) + 1):
